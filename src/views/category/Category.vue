@@ -1,0 +1,132 @@
+<template>
+<div class="wrapper">
+<ul class="content">
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+  <li>hh</li>
+</ul>
+</div>
+</template>
+
+<script>
+import BScroll from 'better-scroll'
+
+export default {
+mounted(){
+  this.scroll=new BScroll('.wrapper',{
+    probeType:3,
+    pullUpLoad:true
+  })
+ this.scroll.on('scroll',(position)=>{
+   console.log(position)
+ }),
+  this.scroll.on('pullingUp',()=>{
+  })
+}
+}
+</script>
+
+<style>
+.wrapper{
+  height: 150px;
+  background-color:yellow;
+  overflow: hidden;
+}
+</style>
